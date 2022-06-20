@@ -69,7 +69,7 @@ const Dashboard = () => {
           minChildWidth={'320px'}
           alignItems={'flex-start'}
         >
-          <Box p={8} bg={'gray.800'} borderRadius={8} pb={4}>
+          <Box p={{ base: 6, lg: 8 }} bg={'gray.800'} borderRadius={8} pb={4}>
             <Text fontSize={'lg'} mb={4}>
               Inscritos da semana
             </Text>
@@ -81,7 +81,7 @@ const Dashboard = () => {
             />
           </Box>
 
-          <Box p={8} bg={'gray.800'} borderRadius={8} pb={4}>
+          <Box p={{ base: 6, lg: 8 }} bg={'gray.800'} borderRadius={8} pb={4}>
             <Text fontSize={'lg'} mb={4}>
               Taxa de abertura
             </Text>
